@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Computing, Human-centric Automation, and Technology (CHAT) Lab"
+title                    : "Construction Human-centric Automation & Technology (CHAT) Lab"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
