@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/Image_20250428145637.jpg"
+  avatar           : "Image_20250428145637.jpg"
   name             : "Gongfan Chen" 
   bio              : "Assistannt Professor"
   location         : "Charlotte, NC"
