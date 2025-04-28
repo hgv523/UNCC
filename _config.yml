@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Gongfan Chen"
+title                    : "Computing, Human-centric Automation, and Technology (CHAT) Lab"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/Image_20250428145637.jpg"
   name             : "Gongfan Chen" 
   bio              : "Assistannt Professor"
   location         : "Charlotte, NC"
@@ -44,12 +44,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/gongfan-chen/"
+  linkedin         : "linkedin.com/in/gongfan-chen"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
