@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 
 <h2>Journal Article</h2>
-<ol class="bracket-list" reversed>
+<ol reversed>
   <li><strong>Chen, G.</strong>, Jaselskis, E., Tamer, A., and Folz, A., (2025). “Using a Large Language Model Powered Framework for Automatic Risk Identification and Mitigation from Past Claims and Supplemental Agreements.” Journal of Computing in Civil Engineering (Under Review).
   </li>
   <li>Diaz, B., <strong>Chen, G.</strong>, Delgado, C., and Jaselskis, E. (2025). “Supporting Generative AI Literacy: Exploring the Pedagogical Roles Students Assign ChatGPT and Impact on Course Grades.” Comunicar (Accepted).
@@ -51,22 +51,23 @@ author_profile: true
   </li>
 </ol>
 
-<style>
-.bracket-list {
-  list-style: none;        /* Turn off default 1. 2. 3. */
-  padding-left: 0;          /* Align to the left */
-  counter-reset: item 11;   /* Set starting point (11 because it will decrement to 10 first) */
-}
-.bracket-list li {
-  counter-decrement: item;  /* Each li, decrease by 1 */
-  margin-bottom: 10px;      /* Space between items */
-  position: relative;       /* Allow positioning pseudo-element */
-  padding-left: 40px;       /* Add space for the bracket */
-}
-.bracket-list li::before {
-  content: "[" counter(item) "]"; /* Create [10], [9], [8] */
-  position: absolute;
-  left: 0;
-  font-weight: bold;
-}
-</style>
+
+<h2>Conference Article</h2>
+<ol reversed>
+  <li>Chen, G., Pedraza, M., Albaloul, R., Albert, A., and Jaselskis, E. (2025). “Developing a Fit-for-Purpose Best Practice Knowledge Handbook using Generative AI.” CSCE Construction Specialty Conference / ASCE Construction Research Congress (CRC) 2025.
+  </li>
+  <li>Chen, G., and Liu, Y. (2025). “Leveraging Large Language Models for Voice-Activated Robotic Teleoperation in Construction.” ASCE International Conference on Computing in Civil Engineering 2025.
+  </li>
+  <li>Mapare, V., Liu, Y., Zheng, D., and Chen, G. (2025). “Enhancing the Worker-Robot Interaction for Construction Task Operation: A Preliminary Study Using Large Language Model-based Methods.” ASCE International Conference on Computing in Civil Engineering 2025.
+  </li>
+  <li>Chen, G., Alsharef, A., and Jaselskis, E. (2024). “Enabling Real-Time AI Applications in Construction Site Safety: A Novel Edge Computing Approach for Nails Detection Under Resource-Constrained Environment.” ASCE International Conference on Computing in Civil Engineering 2024.
+  </li>
+  <li>Chen, G., Alsharef, A., and Jaselskis, E. (2024). “Integrating Sensor-Empowered Federated Learning and Smart Contracts for Automatic Sustainable Infrastructure Management.” ASCE International Conference on Computing in Civil Engineering 2024.
+  </li>
+  <li>. Chen, G., C. He, S. Hsiang, M. Liu, and H. Li. (2023). “A mechanism for smart contracts to mediate production bottlenecks under constraints.” 31st Annual Conference of the International Group for Lean Construction (IGLC). Lille, France. 
+  </li>
+  <li>Li, H., G. Chen, M. Liu, S. M. Hsiang, and A. Jarvamardi. (2023). “Situation awareness based smart contract for modular construction.” Proceedings of the Canadian Society of Civil Engineering Annual Conference 2021, 363–373. Singapore: Springer Nature Singapore. (Best Student Paper for Awardee: Gongfan Chen).
+  </li>
+  <li>He, C., M. Liu, Z. Wang, G. Chen, Y. Zhang, and S. M. Hsiang. (2022). “Facilitating Smart Contract in Project Scheduling under Uncertainty—A Choquet Integral Approach.” Construction Research Congress 2022, 930–939.
+  </li>
+</ol>
