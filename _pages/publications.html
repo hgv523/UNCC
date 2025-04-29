@@ -11,8 +11,10 @@ author_profile: true
 
 {% include base_path %}
 
-<h2><strong>Journal Article</strong></h2>
+<h2>Journal Article</h2>
 <ol class="bracket-list" reversed>
+  <li><strong>Chen, G.</strong>, Jaselskis, E., Tamer, A., and Folz, A., (2025). “Using a Large Language Model Powered Framework for Automatic Risk Identification and Mitigation from Past Claims and Supplemental Agreements.” Journal of Computing in Civil Engineering (Under Review).
+  </li>
   <li>Diaz, B., <strong>Chen, G.</strong>, Delgado, C., and Jaselskis, E. (2025). “Supporting Generative AI Literacy: Exploring the Pedagogical Roles Students Assign ChatGPT and Impact on Course Grades.” Comunicar (Accepted).
   </li>
   <li>Shafaay, M., Alqahtani, F. K., Alsharef, A., and <strong>Chen, G.</strong> (2025). 
@@ -49,3 +51,22 @@ author_profile: true
   </li>
 </ol>
 
+<style>
+.bracket-list {
+  list-style: none;        /* Turn off default 1. 2. 3. */
+  padding-left: 0;          /* Align to the left */
+  counter-reset: item 11;   /* Set starting point (11 because it will decrement to 10 first) */
+}
+.bracket-list li {
+  counter-decrement: item;  /* Each li, decrease by 1 */
+  margin-bottom: 10px;      /* Space between items */
+  position: relative;       /* Allow positioning pseudo-element */
+  padding-left: 40px;       /* Add space for the bracket */
+}
+.bracket-list li::before {
+  content: "[" counter(item) "]"; /* Create [10], [9], [8] */
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+</style>
