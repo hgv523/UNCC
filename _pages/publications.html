@@ -11,26 +11,18 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+Journal Article
+======
+[J10]. Chen, G., Jaselskis, E., Tamer, A., and Folz, A., (2025). “Using a Large Language Model Powered Framework for Automatic Risk Identification and Mitigation from Past Claims and Supplemental Agreements.” Journal of Computing in Civil Engineering.
+[J9]. Diaz, B., Chen, G., Delgado, C., and Jaselskis, E. (2025). “Supporting Generative AI Literacy: Exploring the Pedagogical Roles Students Assign ChatGPT and Impact on Course Grades.” Comunicar.
+[J8]. Shafaay, M., Alqahtani, F. K., Alsharef, A., and Chen, G. (2025). Modeling construction cost overrun risks at the FEED stage for mining projects using PLS-SEM. Journal of Asian Architecture and Building Engineering, 1–17.
+[J7]. Chen, G., Alsharef, A., Ovid, A., Albert, A. and Jaselskis, E. (2025). “Meet2Mitigate: An LLM-powered framework for real-time issue identification and mitigation from construction meeting discourse.” Advanced Engineering Informatics, 64: 103068.
+[J6]. Chen, G., Alsharef, A., and Jaselskis, E. (2024). “Construction Jobsite Image Classification Using an Edge Computing Framework.” Sensors, 24 (20):6603.
+[J5]. Chen, G., M. Liu, H. Li, S. M. Hsiang, and A. Jarvamard. (2023). “Motivating Reliable Collaboration for Modular Construction – A Shapley Value-Based Smart Contract.” Journal of Management in Engineering, 39 (6): 04023042. (Editor’s Choice)  
+[J4]. Chen, G., M. Liu, Y. Zhang, Z. Wang, S. M. Hsiang, and C. He. (2023). “Using Images to Detect, Plan, Analyze, and Coordinate a Smart Contract in Construction.” Journal of Management in Engineering, 39 (2): 1–18.
+[J3]. He, C., M. Liu, Y. Zhang, Z. Wang, S. M. Hsiang, G. Chen, W. Li, and G. Dai. (2023). “Space-Time- Workforce Visualization and Conditional Capacity Synthesis in Uncertainty.” Journal of Management in Engineering, 39 (2): 04022071.
+[J2]. Chen, G., H. Li, M. Liu, S. M. Hsiang, and A. Javanmardi. (2022). “Knowing what is going on – a smart contract for modular construction.” Canadian Journal of Civil Engineering, 50 (3): 210-223. (Invited paper).
+[J1]. He, C., M. Liu, Y. Zhang, Z. Wang, S. M. Hsiang, G. Chen, and J. Chen. (2022). “Exploit Social Distancing in Construction Scheduling: Visualize and Optimize Space–Time–Workforce Tradeoff.” Journal of Management in Engineering, 38 (4): 1–15.
 
 
 
