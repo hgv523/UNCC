@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: ""
 permalink: /team/
 author_profile: false
@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ![my headshot]({{ site.url }}/images/gf_profile2.jpg){: .align-left width = "250px"}
-Gongfan Chen
+                  Dr. Gongfan Chen
 
 Education
 =====
