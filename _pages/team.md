@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-![my headshot]({{ site.url }}/images/gf_profile2.jpg)(: .align-left width = "250px")
+![my headshot]({{ site.url }}/images/gf_profile2.jpg){: .align-left width = "250px"}
 Gongfan Chen
 
 Education
