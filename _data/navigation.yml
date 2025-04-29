@@ -10,7 +10,10 @@
 main:
   - title: "Team"
     url: /team/
-    
+
+  - title: "Research"
+    url: /research/
+  
   - title: "Publications"
     url: /publications/
 
@@ -20,8 +23,7 @@ main:
   #- title: "Teaching"
   # url: /teaching/    
     
-  #- title: "Portfolio"
-  #  url: /portfolio/
+
         
   - title: "News"
     url: /news/
