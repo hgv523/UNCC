@@ -20,6 +20,3 @@ Education
 * M.S. in Civil Engineering, University of Michigan - Ann Arbor, 2017-2019
 * B.E. in Engineering Management, North China Electric Power University (Beijing), 2013-2017
 * [Curriculum Vitae](files/Gongfan Chen-Curriculum Vitae.pdf)
-  
-  
-
