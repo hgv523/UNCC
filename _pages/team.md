@@ -19,4 +19,4 @@ Education
 * M.S. in Electrical and Computer Engineering, North Carolina State University, 2021-2023
 * M.S. in Civil Engineering, University of Michigan - Ann Arbor, 2017-2019
 * B.E. in Engineering Management, North China Electric Power University (Beijing), 2013-2017
-* [Curriculum Vitae](files/Gongfan Chen-Curriculum Vitae.pdf)
+* [Curriculum Vitae]({{ "/files/Gongfan Chen-Curriculum Vitae.pdf" | relative_url }})
