@@ -2,25 +2,29 @@
 layout: archive
 title: ""
 permalink: /research/
-author_profile: false
+author_profile: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-![my headshot]({{ site.url }}/images/gf_profile4.jpg){: .align-right width="250px"}
 
-Dr. Gongfan Chen (陈巩凡)
-------
-[[Curriculum Vitae]]({{ site.url }}/files/Gongfan Chen-Curriculum Vitae.pdf)
-* Ph.D. in Civil Engineering, North Carolina State University, 2023
-* M.S. in Electrical & Computer Engineering, North Carolina State University, 2023
-* M.S. in Civil Engineering, University of Michigan – Ann Arbor, 2019  
-* B.E. in Engineering Management, North China Electric Power University, 2017
 
-**  **
-
-Ph.D. Student
+Building for Success: Generative AI-Driven Multimodal Construction Knowledge Harvest and Communication
 ======
 To be updated
+
+** **
+
+Building for Harmony: Human-Centric Edge Intelligence Design for Seamless Human–Technology Interaction on Construction Sites
+======
+To be updated
+
+** **
+
+Building for Trust: Blockchain-Enabled Smart Contracts for Decentralized and Autonomous Construction Management
+======
+![Smart Contract]({{ site.url }}/images/gf_profile.jpg)
+
+**  **
