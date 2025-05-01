@@ -14,7 +14,7 @@ redirect_from:
 Building Success: Generative AI-Driven Multimodal Construction Knowledge Harvest and Communication
 ------
 To be updated
-
+![GenAI]({{ site.url }}/images/GenAI.bmp)
 ** **
 
 Building Harmony: Human-Centric Edge Intelligence Design for Seamless Human–Technology Interaction on Construction Sites
