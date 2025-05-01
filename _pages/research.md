@@ -11,7 +11,7 @@ redirect_from:
 
 
 
-Building Success: Generative AI-Driven Multimodal Construction Knowledge Harvest and Communication
+Building Success: Generative AI-Powered Multimodal Construction Issue Identification and Knowledge-Driven Mitigation
 ------
 Generative AI is redefining the future of construction by enabling seamless integration of multimodal data to address long-standing industry challenges. Our research focuses on leveraging these capabilities to uncover and mitigate major project issues. Key efforts include extracting risk insights from historical claims and supplemental agreements using BERTopic modeling, applying vision-language models to detect hazardous materials, and developing the Meet2Mitigate framework to automatically capture and summarize key issues from dynamic construction meetings. In parallel, we are curating a comprehensive multimodal knowledge base consisting of best practices, lessons learned, and educational resources. This knowledge base is integrated with multimodal retrieval-augmented generation (RAG) to provide targeted mitigation strategies that directly support the resolution of project-specific issues.
 ![GenAI]({{ site.url }}/images/GenAI.bmp)
