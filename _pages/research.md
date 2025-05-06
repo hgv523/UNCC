@@ -21,7 +21,7 @@ Generative AI is redefining the future of construction by enabling seamless inte
 Building Harmony: Human-Centric Edge Intelligence Design for Seamless Human–Technology Interaction on Construction Sites
 ------
 To be updated
-
+![EdgeAI]({{ site.url }}/images/EdgeAI.bmp)
 ** **
 
 Building Trust: Blockchain-Enabled Smart Contracts for Decentralized and Autonomous Construction Management
