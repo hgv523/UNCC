@@ -23,6 +23,7 @@ Building Harmony: Human-Centric Edge Intelligence Design for Seamless Human–Te
 The central thrust of this research lies in embedding artificial intelligence (AI) within edge computing environments to enable the widespread deployment of edgeAI solutions on construction sites, where network connectivity and bandwidth are often constrained. Our current efforts focus on integrating advanced computer vision models into human-centered edge devices to support real-time material classification, hazard detection, and object recognition. Looking ahead, the rapid emergence of large language models (LLMs) and vision-language models (VLMs) presents exciting opportunities to enhance edge intelligence. Future work will explore the integration of these multimodal models into edge systems and develop intuitive, worker-friendly interfaces that empower construction personnel to seamlessly interact with generative AI applications in physical site environments. The ultimate goal is to harness the capabilities of edgeAI to drive the adoption of advanced technologies and accelerate the evolution of construction automation.
 
 ![EdgeAI]({{ site.url }}/images/EdgeAI.bmp)
+
 ** **
 
 Building Trust: Blockchain-Enabled Smart Contracts for Decentralized and Autonomous Construction Management
